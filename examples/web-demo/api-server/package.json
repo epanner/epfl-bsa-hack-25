@@ -1,0 +1,13 @@
+{
+  "name": "credentials-web-demo-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --experimental-strip-types --no-warnings server.ts",
+    "start": "node --experimental-strip-types --no-warnings server.ts"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
