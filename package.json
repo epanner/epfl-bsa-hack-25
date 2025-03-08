@@ -1,0 +1,25 @@
+{
+  "name": "epfl-bsa-hack-25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epanner/epfl-bsa-hack-25.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epanner/epfl-bsa-hack-25/issues"
+  },
+  "homepage": "https://github.com/epanner/epfl-bsa-hack-25#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
