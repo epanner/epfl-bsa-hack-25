@@ -3,6 +3,8 @@ import {
   Credential,
   Operation,
   PresentationSpec,
+  PresentationRequest,
+  Presentation,
 } from 'mina-attestations';
 import { Field } from 'o1js';
 
@@ -57,3 +59,12 @@ let spec = PresentationSpec(
     outputClaim: Operation.issuer(credential),
   })
 );
+let compiledSpec = await Presentation.precompile(spec);
+
+let request = PresentationRequest.httpsFromCompiled(
+  compiledSpec,
+  { claimedGradient: Field(3) },
+  { action: 'verify-citizenship' }
+);
+let requestJson = PresentationRequest.toJSON(request);
+//await Credential.validate()
