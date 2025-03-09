@@ -1,5 +1,5 @@
 # EPFL Blockchain Student Association Hack 2025
-## Privacy X Verifiability
+Privacy X Verifiability
 ![zkVoting_logo_2](https://github.com/user-attachments/assets/43e7b81c-473a-4bbf-b7f6-15e116df737c)
 # zkVoting App
 
