@@ -1,5 +1,5 @@
 # EPFL Blockchain Student Association Hack 2025
-### Topic: "Privacy x Verifiability". March 8-9, 2025
+Topic: "Privacy x Verifiability". March 8-9, 2025
 
 # zkVoting App
 ![zkVoting_logo_2](https://github.com/user-attachments/assets/43e7b81c-473a-4bbf-b7f6-15e116df737c)
